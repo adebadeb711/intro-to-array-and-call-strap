@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Array Demo</title>
+</head>
+
+<body>
+    <h1>Basic Array, Pop, and Join Example</h1>
+
+    <script>
+        
+        let fruits = ["Strawberry", "Mango", "Rambutan"];
+        document.write("<h2>Original Array</h2>");
+        document.write("<p>My fruits are: " + fruits + "</p>"); 
+
+        
+        document.write("<h2>Accessing by Index</h2>");
+        document.write("<p>The first fruit is: " + fruits[0] + "</p>");
+        document.write("<p>The second fruit is: " + fruits[1] + "</p>");
+
+        
+        document.write("<h2>Using join()</h2>");
+        let allFruitsJoined = fruits.join(" and ");
+        document.write("<p>All fruits joined: " + allFruitsJoined + "</p>");
+
+        
+        document.write("<h2>Using pop()</h2>");
+        let poppedFruit = fruits.pop(); 
+        document.write("<p>The fruit I popped out was: " + poppedFruit + "</p>");
+        document.write("<p>Now my fruits array is: " + fruits + "</p>");
+    </script>
+</body>
+
+</html>
